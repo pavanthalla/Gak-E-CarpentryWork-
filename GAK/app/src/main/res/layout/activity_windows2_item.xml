@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Windows2Item">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="     Search For Workers"
+        android:textSize="20sp"
+        android:translationX="0dp"
+        android:translationY="650dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="91dp"
+        android:layout_height="36dp"
+        android:text="   Area"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:translationX="50dp"
+        android:translationY="550dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
+        android:scrollbarSize="50dp"
+        android:spinnerMode="dropdown"
+
+        android:translationX="150dp"
+        android:translationY="540dp"
+        android:verticalScrollbarPosition="defaultPosition" />
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:text="Cart Items"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:translationX="70dp"
+        android:translationY="70dp" />
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="300dp"
+        android:layout_height="320dp"
+        android:translationX="70dp"
+        android:translationY="125dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:text="Add More Items...!"
+        android:translationX="110dp"
+        android:translationY="470dp" />
+
+</RelativeLayout>

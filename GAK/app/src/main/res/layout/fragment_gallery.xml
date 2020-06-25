@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GakWindows">
+
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="265dp"
+        android:layout_height="63dp"
+        android:text="Double door"
+        android:textSize="25sp"
+        android:translationX="85dp"
+        android:translationY="550dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="265dp"
+        android:layout_height="63dp"
+        android:text="Single Door"
+        android:textSize="25sp"
+        android:translationX="85dp"
+        android:translationY="450dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="274dp"
+        android:layout_height="60dp"
+        android:text="3 SLIDING WINDOWS"
+        android:textSize="25sp"
+        android:translationX="80dp"
+        android:translationY="260dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="265dp"
+        android:layout_height="63dp"
+        android:text="2 Sliding Windows"
+        android:textSize="25sp"
+        android:translationX="85dp"
+        android:translationY="150dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Windows Cart"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:translationX="110dp"
+        android:translationY="50dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="169dp"
+        android:layout_height="58dp"
+        android:text="Doors Cart"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:translationX="120dp"
+        android:translationY="360dp" />
+
+</RelativeLayout>

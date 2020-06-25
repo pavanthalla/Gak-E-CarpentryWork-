@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Windows2Sliding">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No of pieces"
+        android:textSize="23sp"
+        android:translationX="20dp"
+        android:translationY="275dp" />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="In Feets"
+        android:inputType="textPersonName"
+        android:translationX="160dp"
+        android:translationY="210dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      Give Your Estimations"
+        android:textSize="31sp"
+        android:textStyle="bold"
+        android:translationY="60dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:text="Length"
+        android:textSize="23sp"
+        android:translationX="50dp"
+        android:translationY="150dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:text="Width"
+        android:textSize="23sp"
+        android:translationX="50dp"
+        android:translationY="210dp" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="In Feets"
+        android:inputType="textPersonName"
+        android:translationX="160dp"
+        android:translationY="150dp" />
+
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:inputType="textPersonName"
+        android:translationX="160dp"
+        android:translationY="270dp" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup1"
+        android:layout_width="346dp"
+        android:layout_height="66dp"
+        android:translationX="30dp"
+        android:translationY="340dp">
+
+        <RadioButton
+            android:id="@+id/radiobutton1"
+            android:layout_width="161dp"
+            android:layout_height="55dp"
+            android:onClick="glassType"
+            android:padding="10dp"
+
+            android:text="Tinted Glass"
+            android:textSize="18sp"
+
+            android:translationX="10dp"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radiobutton2"
+            android:layout_width="143dp"
+            android:layout_height="54dp"
+            android:checked="true"
+            android:onClick="glassType"
+            android:padding="10dp"
+            android:text="Plane Glass  "
+            android:textSize="17sp"
+            android:translationX="180dp"
+            android:translationY="-55dp"></RadioButton>
+
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radiogroup2"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:translationX="30dp"
+        android:translationY="400dp">
+
+        <RadioButton
+            android:id="@+id/radiobutton3"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+
+            android:checked="true"
+            android:onClick="glassSize"
+            android:padding="10dp"
+            android:text="3.5 mm"
+            android:textSize="17sp"
+            android:translationX="0dp"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/radiobutton4"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:onClick="glassSize"
+            android:padding="10dp"
+
+            android:text="4.0 mm"
+            android:textSize="17sp"
+            android:translationX="170dp"
+            android:translationY="-40dp"></RadioButton>
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Add to Cart"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:translationY="661dp" />
+
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="240dp"
+        android:layout_height="65dp"
+        android:scrollbarSize="50dp"
+        android:spinnerMode="dropdown"
+
+        android:translationX="150dp"
+        android:translationY="530dp"
+        android:verticalScrollbarPosition="defaultPosition" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="76dp"
+        android:layout_height="31dp"
+        android:text="   Color"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:translationX="50dp"
+        android:translationY="540dp" />
+
+</RelativeLayout>

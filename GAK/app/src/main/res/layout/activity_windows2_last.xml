@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Windows2Last">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="205dp"
+        android:layout_height="125dp"
+        android:text="Details"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:translationX="50dp"
+        android:translationY="50dp" />
+
+    <ListView
+        android:id="@+id/listview2"
+        android:layout_width="283dp"
+        android:layout_height="300dp"
+        android:translationX="70dp"
+        android:translationY="250dp">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="195dp"
+        android:layout_height="47dp"
+        android:text="Cart Items"
+        android:textColor="@android:color/black"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:translationX="70dp"
+        android:translationY="200dp" />
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:text="   Your order has been placed"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:translationY="670dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="300dp"
+        android:layout_height="94dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationX="70dp"
+        android:translationY="570dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_background"
+        android:translationX="270dp"
+        android:translationY="60dp"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="   Place Order"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:translationY="665dp" />
+
+</RelativeLayout>
